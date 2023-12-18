@@ -26,5 +26,6 @@ public class DBUtil {
 			System.out.println("DB작업중 문제 발생: " + e.getMessage());
 		}
 		return conn;
+		//yyy
 	}
 }
