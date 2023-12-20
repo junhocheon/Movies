@@ -19,7 +19,7 @@ public class CheckMem {
 		} else {
 			System.out.println("잘못 입력 하셧습니다");
 		}
-//dwdwwwdw
+//dwdwwdwdwdwdwdwd
 	}
 
 	public void member() {
