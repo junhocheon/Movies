@@ -29,7 +29,7 @@ public class Consumarinfo {
             String nOp = db.rs.getString("NOP");
             String oT = db.rs.getString("OrderTime");
             int pM = db.rs.getInt("PayMent");
-            String ts = db.rs.getString("TicketStatus");
+            boolean ts = db.rs.getBoolean("TicketStatus");
 
             Consumar addr = new Consumar(Id, infoname, Pnum, sn, mt, hall, seatn, nOp, oT, pM, ts);
             Addr.add(addr);

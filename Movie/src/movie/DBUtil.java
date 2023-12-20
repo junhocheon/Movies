@@ -14,7 +14,7 @@ public class DBUtil {
 	static	String user = "root";
 	static	String pass = "1234";
 
-	public DBUtil() {
+	public DBUtil() { 
 		conn = getConnection();
 	}
 
