@@ -54,7 +54,7 @@ public class CheckReserv {
 
 	public static void nonfind(String name) {
 	      ArrayList<Consumar> Addr = new ArrayList<>();
-		String sql1 = "select a.* from bookingstatus a join sign b on a.id = b.id where a.SerialNumber = ? or b.PhoneNumber = ?";
+		String sql1 = "select a.* from consumerinfo.bookingstatus a where a.SerialNumber = ? or a.PhoneNumber = ?";
 		try {
 			Connection conn = db.getConnection();
 			db.stmt = conn.createStatement();
